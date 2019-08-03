@@ -41,8 +41,7 @@ Also uncomment the directive ;date.timezone and set its value to your timezone
 ```bash=
 data.timezone = "Asia/Taipei"
 ```
-> [!WARNING]
-> 注意！！！一定要設定最大文件通過量
+!> 注意！！！一定要設定最大文件通過量
 
 
 
@@ -86,7 +85,7 @@ Setting database
 > quit;
 ```
 
-> 數請記下來，之後會使用到
+?> 以下資料請記下來，之後會使用到
 > * webmail的SQL資料:
 > * (database name) = roundcube
 > * (user name) = mailuser

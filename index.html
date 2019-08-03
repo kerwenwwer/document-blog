@@ -16,44 +16,39 @@
       coverpage: true,
       loadSidebar: true,
       loadNavbar: true,
-      search: 'auto', // default
+      subMaxLevel: 2,
+      // complete configuration parameters
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: 'auto', // or 'auto'
+        placeholder: 'Type to search',
 
-    search : [
-      '/',            // => /README.md
-      '/CSCC',       // => /guide.md
-    ],
+        // Localization
+        placeholder: {
+          '/': 'Type to search'
+        },
 
-    // complete configuration parameters
-    search: {
-      maxAge: 86400000, // Expiration time, the default one day
-      paths: [], // or 'auto'
-      placeholder: 'Type to search',
+        noData: 'No Results!',
 
-      // Localization
-      placeholder: {
-        '/': 'Type to search'
-      },
+        // Localization
+        noData: {
+          '/': 'No Results'
+        },
 
-      noData: 'No Results!',
+       // Headline depth, 1 - 6
+        depth: 2,
 
-      // Localization
-      noData: {
-        '/': 'No Results'
-      },
+        hideOtherSidebarContent: false, // whether or not to hide other sidebar content
 
-      // Headline depth, 1 - 6
-      depth: 2,
-
-      hideOtherSidebarContent: false, // whether or not to hide other sidebar content
-
-      // To avoid search index collision
-      // between multiple websites under the same domain
-      namespace: 'website-1',
-    }
+        // To avoid search index collision
+        // between multiple websites under the same domain
+        namespace: 'website-1',
+        }
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
   <script src="//unpkg.com/prismjs/components/prism-bash.main.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
 </body>
 </html>
