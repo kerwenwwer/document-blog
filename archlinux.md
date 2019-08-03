@@ -115,7 +115,7 @@ mkdir /mnt/boot
 mount /dev/sda1 /mnt/boot
 ```
 
-## 4. 安裝
+### 4. 安裝
 
 一般來說我們都是使用 mirrorlist 來取得我們的 kernel 包，那麼你也可以選擇使用 Install Scripts 來安裝若是要使用 scripts 來安裝的話可以使用```arch-install.sh``` 這個檔案，若是想要使用 mirrorlist 的話便可以繼續閱讀本文
 
@@ -455,7 +455,7 @@ XMODIFIERS="@im=fcitx"
 
 ##### P.S IBus的部分請參閱[IBus Arch Wiki](https://wiki.archlinux.org/index.php/IBus)
 
-## 7. 安裝字型
+### 7. 安裝字型
 
 ```shell
 sudo pacman -S noto-fonts noto-fonts-cjk ttf-roboto ttf-roboto-mono
