@@ -1,12 +1,12 @@
 
-# Kerwin's document blog
+# Kerwin's document blog <small>1.0</small>
 ## NTHU CSCC
 
 
 
 
 [GitHub](https://github.com/kerwenwwer)
-[Get Started](root.md)
+[Let's go](#root)
 
 
 <!-- background image -->
