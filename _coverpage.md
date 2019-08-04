@@ -6,7 +6,7 @@
 
 
 [GitHub](https://github.com/kerwenwwer)
-[Let's go](#root)
+[Let's go](./_mainpage/main.md)
 
 
 <!-- background image -->
