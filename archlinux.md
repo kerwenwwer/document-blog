@@ -572,3 +572,5 @@ pacman -Qi package_name
 剩下的請參考[Pacman](https://wiki.archlinux.org/index.php/Pacman_(%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87))
 
 * * *
+
+<meta content="Archlinux 安裝，安裝教學，arch ,archlinux" name="description">

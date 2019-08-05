@@ -412,3 +412,4 @@ https://hackmd.io/pmPJC9v9Slelh2JiE9_gIw
 3.修改config資料夾中的config.inc.php，尋找$config['plugins'] 欄位，將其加入'mobile'，重新整理網頁即可完成。
 
 
+<meta content="Webmail 教學，nginx, ＣentOS 7, Roundcube" name="description">
