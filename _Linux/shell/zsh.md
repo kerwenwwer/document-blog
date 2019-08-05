@@ -1,4 +1,4 @@
-# 美化終端機 zsh+powerlevel9k
+<font size='10'>美化終端機 zsh+powerlevel9k</font>
 
 
 ![](https://i.imgur.com/6uGLTn3.png)

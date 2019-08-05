@@ -1,11 +1,13 @@
 ![logo](../_media/logo.svg ':size=100%')
-# Kerwin Tsai
+<div>
+<font size= '6'>蔡闊光</font> 
+<font size= '4.5'>Kerwin Tsai</font>
+</div>
 
-:school:
-CS Student in National Tsing Hua University
+<font size = '4'>CS Student in National Tsing Hua University
 
-Computer Science student, web developer, blah blah blah.
-Thanks for visiting my document website.
+Computer Science student, web developer.
+Thanks for visiting my document website.</font>
 
 * #### [Github](https://github.com/kerwenwwer)
 * #### [Medium](https://medium.com/@kerwen374)

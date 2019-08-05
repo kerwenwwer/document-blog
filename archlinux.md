@@ -1,4 +1,5 @@
 # Arch Linux 安裝教學
+
 ![archlinux install](https://img.shields.io/badge/Arch%20install%20-Shell%20Script-yellow)
 ![last](https://img.shields.io/github/last-commit/kerwenwwer/arch-linux-install)
 
@@ -570,3 +571,4 @@ pacman -Qi package_name
 
 剩下的請參考[Pacman](https://wiki.archlinux.org/index.php/Pacman_(%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87))
 
+* * *
