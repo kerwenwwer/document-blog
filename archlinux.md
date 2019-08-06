@@ -118,9 +118,8 @@ mount /dev/sda1 /mnt/boot
 
 ### 4. 安裝
 
-一般來說我們都是使用 mirrorlist 來取得我們的 kernel 包，那麼你也可以選擇使用 Install Scripts 來安裝若是要使用 scripts 來安裝的話可以使用```arch-install.sh``` 這個檔案，若是想要使用 mirrorlist 的話便可以繼續閱讀本文
+一般來說我們都是使用 mirrorlist 來取得我們的 kernel 包，那麼你也可以選擇使用 Install Scripts 來安裝。
 
-!> 注意，必須先分割完磁碟區才可以用script
 
 ### 5. 設定 pacman 的 mirrorlist
 
@@ -340,8 +339,6 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ##### 注意: 通常顯示晶片驅動會在安裝或是啟動 xwindows 之前先行安裝完畢以免發生錯誤，若是在已經加載 xorg 的狀況下想要安裝驅動，建議先關閉 xwindows system。
 
 #### Nvidia
-
-目前較新型的晶片都可以被 arch 官方提供的開源驅動兼容因此我們只需要安裝
 
 ```shell
 sudo pacman -S nvidia
