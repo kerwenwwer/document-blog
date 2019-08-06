@@ -164,7 +164,7 @@ server {
 ```
 
 
-> 注意在安裝過程中我們只開放htt服務，https則是在安裝完成後另外對nginx進行設定。
+?> 注意在安裝過程中我們只開放htt服務，https則是在安裝完成後另外對nginx進行設定。
 
 
 2. Next, open the file /etc/php-fpm.d/www.conf to make a few changes to PHP-FPM web directive.
@@ -188,7 +188,7 @@ listen.group = nginx
 listen.mode = 0660
 ```
 
-> php 的conf檔註解格式，是在該行指令前加上";"，如果要啟用該行指令，刪除前面的註解符號即可
+?> php 的conf檔註解格式，是在該行指令前加上";"，如果要啟用該行指令，刪除前面的註解符號即可
 
 ```bash
 $ systemctl restart nginx php-fpm
@@ -376,12 +376,12 @@ ssl_session_cache shared:SSL:9m;
 ssl_session_cache shared:ssl_session_cache:10m;
 client_max_body_size    1G;
 ```
-:::danger
-為了安全性
-只保留了TSLv1.2;
-然後就是nginx也要設定最大通過量
-size就給1G
-:::
+
+?> 為了安全性
+> 只保留了TSLv1.2;
+> 然後就是nginx也要設定最大通過量
+>size就給1G
+
 
 ## Sept7. Security 
 
