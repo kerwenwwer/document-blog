@@ -1,6 +1,6 @@
 * [首頁](_mainpage/main.md)
 * Arch Linux
-    * [Archlinux 安裝](arch-linux-install/archlinux.md)
+    * [Archlinux 安裝](arch-linux-install/arch-install.md)
 
 * NTHU CSCC
     * [Roundcube](_CSCC/Roundcube.md)
